@@ -17,9 +17,7 @@
   },
   "homepage": "https://github.com/eric-hunter/webgl-2d-effects#readme",
   "devDependencies": {
-    "generator-webgl": "^0.2.1",
-    "webpack": "^4.10.0",
-    "yo": "^2.0.2"
+    "webpack": "^4.10.0"
   },
   "dependencies": {}
 }
