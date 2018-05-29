@@ -19,5 +19,7 @@
   "devDependencies": {
     "webpack": "^4.10.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "three": "^0.92.0"
+  }
 }
