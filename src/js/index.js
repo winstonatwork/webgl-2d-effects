@@ -1,5 +1,4 @@
-require('../index.html');
-
 import { App } from './classes/webgl-app.js'
 
-App.run();
+var app = new App();
+app.run();

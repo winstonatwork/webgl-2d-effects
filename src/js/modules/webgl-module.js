@@ -1,10 +1,11 @@
 // MODULE webgl-module.js
+import {GlobalConstants} from './global-constants-module.js';
 
-var context;
+let context; 
 
-export function getContext(canvas) {
+function getContext() {
 	if (!context)
-		context = canvas.getContext("webgl");
+		context = GlobalConstants.CANVAS.getContext("webgl");
 	return context;
 }
 

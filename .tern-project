@@ -1,6 +1,9 @@
 {
+  "exclude": [
+    "**"
+  ],
   "libs": [
-    "browser"
+    "browser", "ecma5"
   ],
   "plugins": {
      "node": {},
